@@ -72,6 +72,8 @@ flutter run
 
 # 특정 기기로 실행
 flutter run -d <device-id>
+
+flutter run -d macos
 ```
 
 ---
@@ -138,23 +140,3 @@ lib/
 ## 라이선스
 
 MIT License
-
----
-
-## Flutter 코딩 패턴
-
-### 1. 상태 관리
-
-| 패턴     | 사용량 | 특징                 |
-| -------- | ------ | -------------------- |
-| Riverpod | ★★★★★  | 현재 사실상 표준     |
-| Bloc     | ★★★★☆  | 대규모 기업 프로젝트 |
-| Provider | ★★★☆☆  | 구형 프로젝트        |
-| GetX     | ★★☆☆☆  | 호불호 강함          |
-| MobX     | ★☆☆☆☆  | 거의 안 씀           |
-
-```
-Flutter
- └─ Riverpod
-     └─ StateNotifier / AsyncNotifier
-```
