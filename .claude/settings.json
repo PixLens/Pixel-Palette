@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(screencapture -x -T 1 /tmp/pixellens_app2.png)",
+      "Bash(python3 -c ' *)",
+      "Bash(osascript -e 'tell application \"Finder\" to get bounds of window of desktop')",
+      "Bash(osascript -e ' *)",
+      "Bash(kill -9 20663 91322)",
+      "Bash(pkill -9 -f \"flutter run\")",
+      "Bash(awk 'NR==306,NR==449' /Users/sjy/Desktop/PixelArtProject/PixelLens/lib/features/canvas/presentation/widgets/canvas_viewport.dart)",
+      "Bash(awk '/abstract class ImageShader/,/^}/' /System/Volumes/Data/opt/homebrew/share/flutter/bin/cache/flutter_web_sdk/lib/ui/painting.dart)",
+      "Bash(break)",
+      "Bash(screencapture -x -T 1 /tmp/pixellens_perf1.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/test600.png)",
+      "Bash(screencapture -x -T 1 -R 0,0,756,40 /tmp/pixellens_topbar5.png)",
+      "Bash(screencapture -x -T 1 -R 580,40,180,20 /tmp/pixellens_topbar6.png)",
+      "Bash(screencapture -x -T 1 /tmp/pixellens_full2.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/pixellens_full2.png)",
+      "Bash(screencapture -x -T 1 -R 2550,170,474,60 /tmp/pixellens_topbar7.png)",
+      "Bash(screencapture -x -T 1 /tmp/pixellens_full3.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/pixellens_full3.png)",
+      "Bash(screencapture -x -T 1 -R 2500,160,524,70 /tmp/pixellens_topbar8.png)",
+      "Bash(screencapture -x -T 1 -R 1280,80,260,40 /tmp/pixellens_topbar9.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/pixellens_topbar9.png)",
+      "Bash(cliclick c:1483,100)",
+      "Bash(screencapture -x -T 1 /tmp/pixellens_filepicker1.png)",
+      "Bash(pkill -9 -f \"pixel_lens\")",
+      "Bash(screencapture -x -T 1 /tmp/pre_click.png)",
+      "Bash(screencapture -x -T 1 /tmp/post_click.png)",
+      "Bash(screencapture -x -T 1 -R 1280,80,260,40 /tmp/topbar_check.png)",
+      "Bash(screencapture -x -T 1 -R 1260,75,300,45 /tmp/topbar_check2.png)",
+      "Bash(screencapture -x -T 1 -R 1000,135,260,30 /tmp/header_check.png)",
+      "Bash(cliclick c:1215,150)",
+      "Bash(screencapture -x -T 1 /tmp/after_load_click.png)"
+    ]
+  }
+}

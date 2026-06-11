@@ -1,0 +1,52 @@
+# ─── Dart / Flutter ──────────────────────────────────────────
+# pub 캐시 및 생성 파일
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# 빌드 결과물
+build/
+*.class
+
+# 플러터 빌드 캐시
+*.stamp
+*.d
+*.filecache
+
+# ─── IDE ─────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# ─── Android ────────────────────────────────────────────────
+android/local.properties          # SDK 경로 (기기마다 다름)
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/key.properties            # 서명 키 (절대 커밋 금지)
+**/android/**/GeneratedPluginRegistrant.java
+
+# ─── iOS / macOS ────────────────────────────────────────────
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/.dart_tool/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+**/ios/**/GeneratedPluginRegistrant.h
+**/ios/**/GeneratedPluginRegistrant.m
+**/Pods/
+*.xcworkspace/xcuserdata/
+
+# ─── 플러그인 자동생성 ─────────────────────────────────────
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ─── 기타 ──────────────────────────────────────────────────
+*.log
+*.tmp

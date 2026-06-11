@@ -1,0 +1,48 @@
+name: pixel_lens
+description: Aseprite-style pixel art drawing and segmentation labeling tool.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── 상태 관리 ──────────────────────────────────────────────
+  flutter_riverpod: ^2.5.1
+
+  # ── 라우팅 ────────────────────────────────────────────────
+  go_router: ^14.2.7
+
+  # ── 네트워크 (AI 기능 연동용) ─────────────────────────────
+  dio: ^5.7.0
+
+  # ── UI ────────────────────────────────────────────────────
+  flutter_colorpicker: ^1.1.0
+
+  # ── 저장 / 공유 ───────────────────────────────────────────
+  image_gallery_saver: ^2.0.3
+  permission_handler: ^11.3.1
+  share_plus: ^9.0.0
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.3
+  file_picker: ^8.0.7
+  ffi: ^2.1.0
+
+  # ── 이미지 처리 ───────────────────────────────────────────
+  image: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  plugin_platform_interface: ^2.1.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ci_logo.png
